@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-handy-archives (0.2.0-2) unstable; urgency=medium
 
-  * Initial release
+  * debian/control:
+      - Added dependency for running tests
+      - Added 'Testsuite: autopkgtest-pkg-pybuild'
+  * debian/patches: Skipped function with error
+  * debian/rules: enabled test execution
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Mon, 01 Jan 2024 23:22:32 -0300
+
+python-handy-archives (0.2.0-1) unstable; urgency=medium
+
+  * New upstream version 0.2.0
+  * debian/control: - Bumped Standards-Version 4.6.2
+  * debian/copyright: updated year to 2023
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 05 Aug 2023 06:50:39 -0300
+
+python-handy-archives (0.1.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only reupload.
+
+ -- Bastian Germann <bage@debian.org>  Sun, 08 Jan 2023 12:53:55 +0100
+
+python-handy-archives (0.1.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1027482)
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 31 Dec 2022 19:54:55 -0300
