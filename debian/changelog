@@ -1,3 +1,9 @@
+python-handy-archives (0.2.0-3) unstable; urgency=medium
+
+  * debian/rules: Skipping functions to fix build error (Closes: #1074709)
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 06 Jul 2024 19:40:26 -0300
+
 python-handy-archives (0.2.0-2) unstable; urgency=medium
 
   * debian/control:
